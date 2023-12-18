@@ -116,6 +116,8 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets,
 
 app.css.config.serve_locally = True
 
+server = app.server
+
 # Define the layout of the app
 app.layout = dbc.Container([
     dbc.Row([
