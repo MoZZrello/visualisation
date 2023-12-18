@@ -1,0 +1,25 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.rc-slider-track {
+  background-color: darkblue;
+}
+
+.rc-slider-dot-active {
+  border-color: darkblue;
+  border: solid 2px darkblue;
+}
+
+.rc-slider-handle {
+  background-color: darkblue;
+  border-color: darkblue;
+}
+
+.rc-slider-handle:hover {
+  border-color: darkblue;
+}
+
+.rc-slider-handle-active:active {
+  border-color: darkblue;
+}
